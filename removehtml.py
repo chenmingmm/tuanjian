@@ -28,5 +28,3 @@ for i in range(715,716):
         removeItem(pd)
         htmlfilesave = open('test6.html','w', encoding='utf-8')
         htmlfilesave.write(etree.tostring(pd,encoding="utf-8",pretty_print=True,method="html").decode())
-        #htmlfilesave.write(jsonMap['data'][0]['detail'])
-    break
